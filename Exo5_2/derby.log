@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sat Apr 11 16:20:02 CEST 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0171-699c-9317-00000366c280 
+on database directory /home/rachida/Bureau/rachida/folders/rachidaM1info/S2/GL/TD/pglp_5.2/Exo5_2/DBDerby with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@55054057 
+Loaded from file:/home/rachida/Bureau/rachida/folders/rachidaM1info/S2/GL/TD/pglp_5.2/Exo5_2/derby.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.6+10-post-Ubuntu-1ubuntu118.04.1
+user.dir=/home/rachida/Bureau/rachida/folders/rachidaM1info/S2/GL/TD/pglp_5.2/Exo5_2
+os.name=Linux
+os.arch=amd64
+os.version=4.15.0-91-generic
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
