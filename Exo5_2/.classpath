@@ -24,9 +24,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="/home/rachida/Bureau/Derby/db-derby-10.15.2.0-bin.zip"/>
+	<classpathentry kind="lib" path="/home/rachida/Bureau/Derby/db-derby-10.14.2.0-bin.zip"/>
 	<classpathentry kind="lib" path="derby.jar"/>
-	<classpathentry kind="lib" path="derbyshared.jar"/>
+	<classpathentry kind="lib" path="derbyrun.jar"/>
 	<classpathentry kind="lib" path="derbytools.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

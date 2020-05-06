@@ -54,12 +54,13 @@ public class CompositePersonne implements  InterfacePersonne, Serializable{
 	     * 
 	     * @see personnel.
 	     */
-		public  ArrayList<InterfacePersonne>getPersonnel()
+		public  ArrayList<InterfacePersonne> getPersonnel()
 		{
 		return this.personnel;	
 		//return ( ArrayList<InterfacePersonne>) Collections.unmodifiableList(this.personnel);
 
 		}
+		
 		/**
 	     * Permet d'affiche le nom de groupe ,
 	     * ainsi que la liste des personnels.
@@ -69,8 +70,11 @@ public class CompositePersonne implements  InterfacePersonne, Serializable{
 			System.out.println("Le nom du groupe est : "+this.NomGroupe);
 
 			  for (InterfacePersonne per :personnel) {
+				  System.out.println("voilaaaaaaaaaaa");
 			        per.print();  //Delegation
 			    }
+			  System.out.println("voilaaaaaaaaaaa 2222222");
+
 		}
 
 		/**

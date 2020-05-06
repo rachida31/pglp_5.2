@@ -46,10 +46,9 @@ public class DerbyConnexion {
 		
 	}	
 	
-	public int[]  createtable()  
+	public void  createtable()  
 	{
 			try {
-
 					Connection conn =DriverManager.getConnection(dburl);
 				      //creationde l'objet Statement pour envoyer des instructions .
 					Statement state = conn.createStatement();
@@ -69,11 +68,10 @@ public class DerbyConnexion {
 					    if (resultSet.next()) {
 							state.addBatch("DROP TABLE Approprier");
 					    }
-					  
+
 
 					    	state.addBatch(
 							"CREATE TABLE Personnel ("
-								 + "idPerso INT NOT NULL , "
 						         + "nom VARCHAR(255) NOT NULL , "
 						         + "prenom VARCHAR(255) NOT NULL , "
 						         + "date DATE NOT NULL, "
@@ -83,18 +81,17 @@ public class DerbyConnexion {
 					         + "NomGoup VARCHAR(255) NOT NULL , "
 					         + "PRIMARY KEY (NomGoup))");  
 					state.addBatch( "CREATE TABLE  Approprier( "
-					         + "idPerso INT NOT NULL , "
+					         + "nomPerso VARCHAR(255) NOT NULL , "
 					         + "NomGoupe varchar(255) NOT NULL , "
-					         + "PRIMARY KEY (idPerso)) "
+					         + "PRIMARY KEY (nomPerso,NomGoupe)) "
 					         );
-					return state.executeBatch();
+					 state.executeBatch();
 
 		
 		
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			return null;
 		}
 	}
 	

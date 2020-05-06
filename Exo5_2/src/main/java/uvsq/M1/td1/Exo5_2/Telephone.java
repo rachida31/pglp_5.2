@@ -1,6 +1,8 @@
 package uvsq.M1.td1.Exo5_2;
 /**
- *Une enum pou definir le type de Telephone d'un personnel.  
+ * <p>
+ *Une enum pou definir le type de Telephone d'un personnel.
+ *</p>  
  * @author rachida ouchene.
  * 
  */
